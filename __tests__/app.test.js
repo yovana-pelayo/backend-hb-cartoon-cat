@@ -31,6 +31,7 @@ describe('cats routes', () => {
     };
     expect(res.body).toEqual(felix);
   });
+  -cats;
 
   afterAll(() => {
     pool.end();
